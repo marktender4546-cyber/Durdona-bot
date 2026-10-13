@@ -1,0 +1,124 @@
+{
+  "shop": {
+    "name": "Bella Sposa",
+    "tagline": {
+      "uz": "Kelin ko'ylaklari salonida orzuingizdagi libosni toping",
+      "ru": "Найдите платье мечты в нашем свадебном салоне"
+    },
+    "phone": "+998 90 123 45 67",
+    "telegram": "your_username",
+    "instagram": "https://instagram.com/your_page",
+    "address": {
+      "uz": "Toshkent shahri, Amir Temur ko'chasi 10",
+      "ru": "г. Ташкент, ул. Амира Темура, 10"
+    },
+    "hours": {
+      "uz": "Har kuni 10:00 dan 20:00 gacha",
+      "ru": "Ежедневно с 10:00 до 20:00"
+    },
+    "lat": 41.311081,
+    "lon": 69.240562,
+    "about": {
+      "uz": "Bella Sposa — kelin ko'ylaklari salonidir. Bizda har bir kelin uchun mos fason, o'lcham va rang topiladi. Primerkaga yoziling, mutaxassislarimiz ko'ylak tanlashda yordam beradi.",
+      "ru": "Bella Sposa — салон свадебных платьев. У нас каждая невеста найдёт подходящий фасон, размер и цвет. Запишитесь на примерку, и наши специалисты помогут с выбором."
+    }
+  },
+  "categories": [
+    { "id": "ball", "name": { "uz": "Pishiq (to'pli)", "ru": "Пышные" } },
+    { "id": "aline", "name": { "uz": "A-siluet", "ru": "А-силуэт" } },
+    { "id": "mermaid", "name": { "uz": "Baliq dumi", "ru": "Русалка" } },
+    { "id": "minimal", "name": { "uz": "Minimalist", "ru": "Минимализм" } }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Aurora",
+      "category": "ball",
+      "price": 6500000,
+      "old_price": 7800000,
+      "tag": "sale",
+      "sizes": "42–54",
+      "colors": { "uz": "Oq, shampan", "ru": "Белый, шампань" },
+      "fabric": { "uz": "Tyul, atlas", "ru": "Фатин, атлас" },
+      "desc": {
+        "uz": "Ko'p qatlamli yubka va kashtali korset. Katta tantana uchun ajoyib tanlov.",
+        "ru": "Многослойная юбка и вышитый корсет. Отличный выбор для большого торжества."
+      },
+      "images": ["/static/img/d1-1.jpg", "/static/img/d1-2.jpg"]
+    },
+    {
+      "id": 2,
+      "name": "Celine",
+      "category": "aline",
+      "price": 4200000,
+      "tag": "new",
+      "sizes": "40–52",
+      "colors": { "uz": "Oq, sutrang", "ru": "Белый, молочный" },
+      "fabric": { "uz": "Shifon, dantel", "ru": "Шифон, кружево" },
+      "desc": {
+        "uz": "Yengil A-siluet, dantelli yelka va ochiq orqa qismi bilan.",
+        "ru": "Лёгкий А-силуэт с кружевными плечами и открытой спиной."
+      },
+      "images": ["/static/img/d2-1.jpg", "/static/img/d2-2.jpg"]
+    },
+    {
+      "id": 3,
+      "name": "Isabella",
+      "category": "mermaid",
+      "price": 5900000,
+      "sizes": "40–50",
+      "colors": { "uz": "Oq, pudra", "ru": "Белый, пудровый" },
+      "fabric": { "uz": "Krep, dantel", "ru": "Крепе, кружево" },
+      "desc": {
+        "uz": "Qomatni ta'kidlovchi baliq dumi fasoni, uzun etak bilan.",
+        "ru": "Силуэт «русалка», подчёркивающий фигуру, с длинным шлейфом."
+      },
+      "images": ["/static/img/d3-1.jpg", "/static/img/d3-2.jpg"]
+    },
+    {
+      "id": 4,
+      "name": "Valentina",
+      "category": "minimal",
+      "price": 3800000,
+      "sizes": "38–50",
+      "colors": { "uz": "Oq, ayvori", "ru": "Белый, айвори" },
+      "fabric": { "uz": "Atlas", "ru": "Атлас" },
+      "desc": {
+        "uz": "Ortiqcha bezaksiz, toza chiziqlar va sodda kesim. Zamonaviy kelinlar uchun.",
+        "ru": "Чистые линии и лаконичный крой без лишнего декора. Для современных невест."
+      },
+      "images": ["/static/img/d4-1.jpg", "/static/img/d4-2.jpg"]
+    },
+    {
+      "id": 5,
+      "name": "Serafina",
+      "category": "ball",
+      "price": 7200000,
+      "tag": "new",
+      "sizes": "42–56",
+      "colors": { "uz": "Oq, och pushti", "ru": "Белый, нежно-розовый" },
+      "fabric": { "uz": "Tyul, guipure", "ru": "Фатин, гипюр" },
+      "desc": {
+        "uz": "Marjonlar bilan bezatilgan korset va hajmli yubka.",
+        "ru": "Корсет с жемчужным декором и объёмная юбка."
+      },
+      "images": ["/static/img/d5-1.jpg", "/static/img/d5-2.jpg"]
+    },
+    {
+      "id": 6,
+      "name": "Amelia",
+      "category": "aline",
+      "price": 4900000,
+      "old_price": 5600000,
+      "tag": "sale",
+      "sizes": "40–54",
+      "colors": { "uz": "Oq", "ru": "Белый" },
+      "fabric": { "uz": "Shifon, tyul", "ru": "Шифон, фатин" },
+      "desc": {
+        "uz": "V-shaklidagi bo'yin va yengil oqib tushuvchi etak.",
+        "ru": "V-образный вырез и лёгкая струящаяся юбка."
+      },
+      "images": ["/static/img/d6-1.jpg", "/static/img/d6-2.jpg"]
+    }
+  ]
+}
